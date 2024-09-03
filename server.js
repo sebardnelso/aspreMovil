@@ -10,6 +10,7 @@ const port = 3000;
 app.use(cors());
 app.use(express.json());
 
+
 // Configurar la conexión a la base de datos MySQL con reconexión automática
 const dbConfig = {
   host: '190.228.29.61',
